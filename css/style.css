@@ -11,7 +11,7 @@ body {
 }
 
     #di {
-        border: 10px pink groove;
+        border: 40px pink groove;
         margin: auto;
         width: 50%;
     }
@@ -21,8 +21,9 @@ body {
         }
     }
     @media  screen and (max-width:600px) {
-        h1 {
-            width: 100px;
+        #di {
+            width: 100%;
+            height: 100%;
             
         }
         
@@ -33,6 +34,21 @@ body {
         @media  screen and (max-width:600px) {
             #hh {
                 width: 100%;
+                height: 100%;
+                
+            }
+        }
+        @media  screen and (max-width:600px) {
+            #faren {
+                width: 100%;
+            font-family: sans-serif;
+                
+            }
+        }
+        @media  screen and (orientation:landscape) {
+            #hh {
+                width: 100%;
+                height: 100%;
                 
             }
         }
