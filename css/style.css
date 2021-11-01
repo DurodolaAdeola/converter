@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width:600px) {
+    .container {
+        background-color: violet;
+        color: black;
+        border-color: blanchedalmond;
+    }
+}
+
+    #di {
+        border: 10px pink groove;
+        margin: auto;
+        width: 50%;
+    }
+    @media screen and (max-width:600px) {
+        #di {
+            border: 10px lightblue dashed;
+        }
+    }
+    @media  screen and (max-width:600px) {
+        h1 {
+            width: 100px;
+            
+        }
+        
+    }
+        h1 {
+            text-align: center;
+        }
+        @media  screen and (max-width:600px) {
+            #hh {
+                width: 100%;
+                
+            }
+        }
+        
+    
